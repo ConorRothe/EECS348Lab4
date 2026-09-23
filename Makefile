@@ -1,10 +1,10 @@
-all: football_scores temperature
+all: task1 task2
 
-football_scores: football_scores.c
-	gcc football_scores.c -o football_scores
+task1: task1.c
+	gcc task1.c -o task1
 
-temperature: temperature.c
-	gcc temperature.c -o temperature
+task2: task2.c
+	gcc task2.c -o task2
 
 clean:
-	rm -f football_scores temperature
+	rm -f task1 task2
